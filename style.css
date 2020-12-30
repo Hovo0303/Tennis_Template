@@ -1,0 +1,642 @@
+@media only screen and (max-width: 800px){
+	.header_h1{
+		display: none!important
+	}
+	.header_h2{
+		display: none!important
+	}
+	.tenis_12{
+		display: block!important;
+		width: 100px;
+	}
+	.header_menu{
+		display: flex;
+	}
+	.header_menu ul{
+		display: none!important;
+	}
+	.search_media{
+	display: block!important;
+	}
+	.btn_media{
+		display: block!important;
+	}
+	.btn1{
+		background: red!important;
+		color: blue!important;
+		border:1px solid;
+		border-radius: 15px;
+	}
+	.btn{
+		background: yellow!important;
+		color: blue!important;
+		border:1px solid;
+		border-radius: 15px;
+	}
+	.btn2{
+		background:blue!important;
+		color: red!important;
+		border:1px solid;
+		border-radius: 10px;
+	}
+	.p_text{
+		font-size: 10px;
+		color: red;
+	}
+	.c_div{
+		color: blue;
+	}
+	#c_div{
+		color: red;
+		width: 200px;
+	    height: 200px;
+	    margin-left: 10px;
+	    margin-top: 20px;		
+	    background: #131364!important;
+	}
+	#c_div1 {
+		background-color: blue
+	}
+	#c_div2 {
+		background-color: red
+	}
+
+	#c_div4 {
+		background-color: orange
+	}
+
+	#c{
+		background: #346462!important;
+		width: 50px!important;
+		height: 50px!important;
+		border: 1px solid!important;
+		border-radius: 50%!important;
+		margin-top: 30px!important;
+		text-align: center!important;
+	}
+	.design_h1{
+		color: orange!important;
+	}
+	.design_h2{
+		color: teal!important;
+		font-family: italic;
+	}
+	small{
+		color: teal;
+	}
+	.btn_line{
+		border-radius: 20px;
+		background: red!important;
+	}
+	#btn_line_media{
+		background: teal!important;
+	}
+	#btn_line_med{
+		background: blue!important;
+	}
+}
+.search_media{
+	width: 200px;
+	height: 50px;
+	border:1px solid;
+	border-radius: 15px;
+	display: none; 
+}	
+.btn_media{
+	width: 80px;
+	height: 50px;
+	border: 1px solid;
+	border-radius: 20px;
+	margin-left: 15px;
+	display: none;
+
+}
+
+
+
+body{
+	margin: 0
+}
+.header{
+	height: 60px;
+	background: yellow;
+	display: flex;
+	justify-content: space-around;
+}
+.header_name{
+	width: 450px;
+	height: 60px;
+	/*border:1px solid;*/
+	position: relative;
+
+}
+.header_h1{
+	font-size: 23px;
+	position: absolute;
+	left: 80px;
+
+}
+.header_h2{
+	font-size: 10px;
+	position: absolute;
+	top: 30px;
+	left: 80px;
+}
+.tenis_12{
+	width: 43px;
+	height: 60px;
+	display: none;
+	margin-left:20px;
+}
+.header_menu{
+	width: 450px;
+	height: 60px;
+	margin-right: 90px;
+}
+ul{
+	display: flex;
+	margin-top: 20px;
+}
+ul li{
+	list-style-type: none 
+}
+li{
+	margin-left: 15px
+}
+a{
+	text-decoration: none
+}
+.nkar_line{
+	height: 300px;
+}
+.img_tenis{
+	width: 100%;
+	height: 300px;
+}
+.nkar_diver{
+	height: 300px;
+	display: flex;
+	justify-content: center;
+}
+.div_nkar{
+	width: 250px;
+	height: 180px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.div_nkar1{
+	width: 250px;
+	height: 250px;
+}
+.div_nkar2{
+	width: 250px;
+	height: 40px;
+}
+.tenis1{
+	width: 250px;
+	height: 140px;
+}
+.btn{
+	width: 250px;
+	height: 40px;
+	background: black;
+	color: yellow;
+}
+.btn1{
+	width: 250px;
+	height: 40px;
+	background: yellow;
+	color: black;
+	cursor: pointer;
+	outline: none;
+}
+.btn2{
+	width: 250px;
+	height: 40px;
+	background: yellow;
+	color: black;
+	cursor: pointer;
+	outline: none;
+}
+.p_text{
+	font-size: 10px;
+}
+.clor{
+	display: flex;
+	justify-content: center;
+}
+.clor_center {
+	width: 820px;
+	height: 350px;
+	display: flex;
+	margin-left: 40px;
+}
+.one {
+	width: 270px;
+	height: 350px;
+}
+.one_divs {
+	height: 150px;
+	display: flex;
+}
+.c{
+	width: 50px;
+	height: 50px;
+	border: 1px solid;
+	border-radius: 50%;
+	margin-top: 30px;
+	text-align: center;
+	background: yellow;
+}
+#c {
+	width: 100px;
+	height: 50px;
+	border: 1px solid;
+	border-radius: 50%;
+	margin-top: 30px;
+	text-align: center;
+	background: yellow;
+}
+.c_div {
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.design{
+	height: 280px;
+	display: flex;
+	justify-content: center;
+}
+.design_line{
+	width: 270px;
+	height: 200px;
+	position: relative;
+	margin-left: 15px;
+
+}
+.design_h1{
+	position: absolute;
+	font-size: 25px;
+}
+.design_h2{
+	position: absolute;	
+	top: 30px;
+	font-size: 25px;
+}
+.line{
+	width: 270px;
+	height: 80px;
+}
+.line1{
+	width: 270px;
+	height: 120px;
+}
+.line2{
+	width: 270px;
+	height: 40px;
+}
+.btn_line{
+	width: 120px;
+	height: 40px;
+	background: yellow;
+	color: black;
+	margin-left: 35px;
+	cursor: pointer;
+	outline: none;
+	
+}
+.narki_line{
+	height: 180px;
+	background: teal;
+	display: flex;
+	justify-content: center;
+}
+.lorem{
+	height: 180px;
+	width: 320px;
+	position: relative;
+}
+.tenis_lorem{
+	 width: 316px; 
+	height: 180px;
+	position: absolute;
+}
+.nkari_lorem{
+	width: 316px;
+	height: 180px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+}
+.pos_h1{
+	font-size: 20px;
+	position: absolute;
+	color: yellow;
+	left: 45px;
+	top: 20px;
+}
+.pos_h2{
+	font-size: 20px;
+	position: absolute;
+	top: 40px;
+	color: yellow;
+	left: 60px;
+}
+.pos_h3{
+	font-size: 16px;
+	position: absolute;
+	top: 70px;
+	color: white;
+	left: 20px;
+}
+.pos_h4{
+	font-size: 16px;
+	position: absolute;
+	top: 90px;
+	color: white;
+	left: 30px;
+}
+.pos_h5{
+	font-size: 15px;
+	position: absolute;
+	color: yellow;
+	left: 20px;
+	top: 60px;
+}
+.pos_h6{
+	font-size: 20px;
+	position: absolute;
+	color: yellow;
+	left: 65px;
+	top: 80px;
+}
+.btn_lorem{
+	width: 120px;
+	height: 30px;
+	background: yellow;
+	color: black;
+	margin-top: 125px;
+	cursor: pointer;
+	outline: none;
+
+}
+
+.mec{
+	height: 800px;
+	background: teal;
+	display: flex;
+	justify-content: center;
+}
+.erkar_div{
+	width: 300px;
+	height: 790px;
+	margin-top: 25px;
+}
+.text_div{
+	width: 100px;
+	height: 50px;
+}
+.text_text{
+	font-size: 25px;
+	color: white;
+	margin-top: 20px;
+}
+.text_div1{
+	width: 300px;
+	height: 90px;
+}
+.lines{
+	width: 300px;
+	height: 3px;
+	background: white;
+	margin-top: 20px;
+}
+.services{
+	width:100px ;
+	height: 40px;
+}
+.klorner_puchur{
+	width: 300px;
+	height: 250px;
+	display: flex;
+}
+.erkar_erkar{
+	width: 20px;
+	height: 250px;
+}
+.erkar_erkar1{
+	width: 140px;
+	height: 250px;
+	margin-left: 5px;
+}
+.erkar_erka2{
+	width: 20px;
+	height: 250px;
+	
+}
+.erkar_erkar3{
+	width: 140px;
+	height: 250px;
+}
+.form1{
+	margin-top: 9px;
+}
+.form2{
+	margin-top: 9px;
+	margin-left: 10px;
+}
+.font{
+	font-size: 15px;
+	color: yellow;
+	margin-left: 20px;
+}
+.font1{
+	font-size: 15px;
+	color: yellow;
+	margin-top:17px;
+	margin-left: 20px;
+}
+.font2{
+	font-size: 16px;
+	color: yellow;
+	margin-top:22px;
+	margin-left: 20px;
+}
+.font3{
+	font-size: 15px;
+	color: yellow;
+	margin-top:22px;
+	margin-left: 20px;
+}
+.font4{
+	font-size: 15px;
+	color: yellow;
+	margin-top:22px;
+	margin-left: 20px;
+}
+.font5{
+	font-size: 15px;
+	color: yellow;
+	margin-top:22px;
+	margin-left: 20px;
+}
+.font6{
+	font-size: 15px;
+	color: yellow;
+	margin-top:20px;
+	margin-left: 20px;
+}
+.erkar_text{
+	width: 300px;
+	height: 240px;
+	margin-top: 15px;
+}
+.tvyalner{
+	width: 300px;
+	height: 540px;
+}
+.inp{
+	width: 250px;
+	height: 45px;
+	margin-left: 30px;
+	background: black;
+	color: white;
+	margin-top: 8px;
+	cursor: pointer;
+	outline: none;
+}
+.inp2{
+	width: 250px;
+	height: 90px;
+	background: black;
+	color: white;
+	margin-left: 30px;
+	margin-top: 8px;
+	cursor: pointer;
+	outline: none;
+}
+.p1{
+	margin-left:30px;
+}
+.send_but{
+	width: 80px;
+	height: 40px;
+	background:yellow;
+	color: black;
+	margin-left: 30px;
+	margin-top: 15px;
+	cursor: pointer;
+	outline: none;
+}
+.send_but1{
+	width: 80px;
+	height: 40px;
+	background:yellow;
+	color: black;
+	margin-left: 3px;
+	margin-top: 15px;
+	cursor: pointer;
+	outline: none;
+}
+.text_text1{
+	font-size: 25px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 27px;
+}
+.verchin_nkar{
+	width: 300px;
+	height: 180px;
+	margin-top: 30px;
+}
+.nkar_tennis2{
+	width: 300px;
+	height: 180px;
+}
+.kubik_nkar{
+	width: 300px;
+	height: 100px;
+	display: flex;
+	margin-top: 30px;	
+}
+.kubik1{
+	width:90px;
+	height: 90px;
+	margin-left: 30px;
+}
+.kubik2{
+	width: 180px;
+	height: 90px;
+	margin-left: 15px;
+	position: relative;
+}
+.kubik_tenis{
+	width: 90px;
+	height: 90px;
+}
+.kubik_h1{
+	position: absolute;
+	font-size: 13px;
+	color: yellow;
+	top: -7px;
+}
+.kubik_h2{
+	position: absolute;
+	font-size: 12px;
+	top: 10px;
+	color: red;
+}
+.kubik_h3{
+	position: absolute;
+	font-size: 12px;
+	top: 25px;
+	color: wheat;
+}
+.erkrord_kubik{
+	width: 300px;
+	height: 100px;
+	display: flex;
+	margin-top: 30px;		
+}
+.erkrord_kubik1{
+	width: 300px;
+	height: 100px;
+	display: flex;
+	margin-top:30px ;		
+}
+.kubik_buton{
+	width:120px;
+	height: 40px;
+	background: yellow;
+	color: black;
+	margin-top: 20px;
+	margin-left: 28px;
+	cursor: pointer;
+	outline: none;
+}
+.text{
+	width: 300px;
+	height: 200px;
+	margin-top: 38px;
+}
+.text1{
+	width: 300px;
+	height: 50px;
+}
+.text2{
+	width: 300px;
+	height: 100px;
+	}
+.verchaban{
+	background: teal;
+	height: 95px;
+	border: 1px solid teal; 
+	text-align: center;
+	}
+#h22{
+	font-size:15px ;
+	margin-left: 25px;	
+}
+	
+	
